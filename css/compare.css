@@ -1,0 +1,54 @@
+.comp-div{
+    top: 90%;
+}
+
+.comp{
+    background: #ffc107;
+    margin-left: auto;
+    /* position: fixed; */
+    width: 50px;
+    height: 50px;
+    filter: drop-shadow(0px 0px 10px #00000040 );
+    top: 89%;
+    left: 93%;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.comp i{
+    position: absolute;
+    top: 14px;
+    left: 13px;
+    font-size: x-large;
+    /* color: #ffc107; */
+}
+
+.comp .cont{
+    border-radius: 50px;
+    background: #fff2cb;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 70%;
+    top: -5px;
+}
+
+.cont span{
+    position: absolute;
+    left: 7px;
+    top: 0px;
+    font-size: small;
+    color: #212529;
+}
+
+.fa-xmarkc{
+    position: absolute;
+    padding-left: 90%;
+    padding-top: 4%;
+    opacity: 0;
+}
+
+.fa-xmarkc:hover{
+    color: #ffc107;
+}
